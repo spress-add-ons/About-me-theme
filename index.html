@@ -1,0 +1,122 @@
+---
+---
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{{ page.title | default(site.title) }}</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="{{ page.description | default(site.description) }}" />
+		<meta name="keywords" content="{{ page.keywords | default(site.keywords) | join(',') }}" />
+		<meta name="generator" content="Spress" />
+		<!--[if lte IE 8]><script src="{{ site.url }}/css/ie/html5shiv.js"></script><![endif]-->
+		<script src="{{ site.url }}/js/skel.min.js"></script>
+		<script src="{{ site.url }}/js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="{{ site.url }}/css/skel.css" />
+			<link rel="stylesheet" href="{{ site.url }}/css/style.css" />
+			<link rel="stylesheet" href="{{ site.url }}/css/style-wide.css" />
+			<link rel="stylesheet" href="{{ site.url }}/css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="{{ site.url }}/css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.url }}/css/ie/v8.css" /><![endif]-->
+		<link rel="icon" type="image/x-icon" href="{{ site.url }}/favicon.ico">
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="main">
+
+				<!-- Header -->
+				<header id="header">
+					<h1>{{ site.author.name }}</h1>
+					<h2>{{ site.author.headline }}</h2>
+					<p>{{ site.author.bio }}</p>
+					<nav>
+						{% if site.author.interests %}
+						<div class="container 75%">
+							<ul>
+								{% for interest in site.author.interests %}
+									<li><i class="fa fa-circle-thin"></i> {{ interest }}</li>
+								{% endfor %}
+							</ul>
+						</div>
+						{% endif %}
+						<ul>
+							{% if site.social_networks.twitter %}
+							<li>
+								<a href="https://twitter.com/{{ site.social_networks.twitter }}" class="icon fa-twitter">
+									<span class="label">Twitter</span>
+								</a>
+							</li>
+							{% endif %}
+							{% if site.social_networks.facebook %}
+							<li>
+								<a href="{{ site.social_networks.facebook  }}" class="icon fa-facebook">
+									<span class="label">Facebook</span>
+								</a>
+							</li>
+							{% endif %}
+							{% if site.social_networks.linkedin %}
+							<li>
+								<a href="{{ site.social_networks.linkedin  }}" class="icon fa-linkedin">
+									<span class="label">Linkedin</span>
+								</a>
+							</li>
+							{% endif %}
+							{% if site.social_networks.instagram %}
+							<li>
+								<a href="http://instagram.com/{{ site.social_networks.instagram }}" class="icon fa-instagram">
+									<span class="label">Instagram</span>
+								</a>
+							</li>
+							{% endif %}
+							{% if site.social_networks.github %}
+							<li>
+								<a href="{{ site.social_networks.github }}" class="icon fa-github">
+									<span class="label">Github</span>
+								</a>
+							</li>
+							{% endif %}
+							{% if site.social_networks.dribbble %}
+							<li>
+								<a href="https://dribbble.com/{{ site.social_networks.dribbble }}" class="icon fa-dribbble">
+									<span class="label">Dribbble</span>
+								</a>
+							</li>
+							{% endif %}
+							{% if site.social_networks.email %}
+								<li>
+									<a href="mailto:{{ site.social_networks.email }}" class="icon fa-envelope-o">
+										<span class="label">Email</span>
+									</a>
+								</li>
+							{% endif %}
+							{% if site.social_networks.url %}
+								<li>
+									<a href="{{ site.social_networks.url }}" class="icon fa-link">
+										<span class="label">URL</span>
+									</a>
+								</li>
+							{% endif %}
+						</ul>
+					</nav>
+				</header>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<span class="copyright">
+						&copy; {{ 'now' | date('Y') }} {{ site.author.name }}.
+						Powered by: <a href="http://spress.yosymfony.com">Spress</a>.
+					</span>
+					<span class="photo-author">
+						{% if site.background.author.name %}
+							<i class="fa fa-camera"></i> by 
+							<a href="{{ site.background.author.url | default('#') }}">{{ site.background.author.name }}</a>.
+						{% endif %}
+					</span>
+				</footer>
+				
+			</div>
+		</div>
+	</body>
+</html>

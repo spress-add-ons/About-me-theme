@@ -1,0 +1,5 @@
+_site/
+_plugins/
+composer.lock
+.DS_Store
+config_demo.yml

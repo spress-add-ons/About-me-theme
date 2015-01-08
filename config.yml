@@ -1,0 +1,54 @@
+title: "About me theme for Spress"
+description: "Another site creted with Spress"
+keywords:
+    - html5
+    - css3
+    - theme
+    - responsive
+    - spress
+
+author:
+    name: Rob Denton
+    headline: "UX Designer & Strategist"
+    bio: |
+      Passionate software engineer, polyglot programmer
+      and agile engineering advocate.
+    interests:
+        - Javascript
+        - CSS3
+        - PHP
+        - Symfony
+
+# Social networks card
+social_networks:
+    twitter: spress_cms # Your id without @
+    facebook:  # Your URL
+    instagram: # Your id
+    github: https://github.com/spress/Spress
+    dribbble: # Your id
+    linkedin: # Your URL
+    email: # Your email adress you@yoourDomain.com
+    url: # Your URL
+
+texts:
+    default_color: "#fff"
+    title_color: "#fff"
+    headline_color: "#ffa"
+    bio_color: "#fff"
+
+background:
+    color: "#000"
+    image: "css/images/photo.jpg"
+    size: "2250px"           # global
+    size_wide: "1500px"      # resolution 1680
+    size_normal: "1300px"    # resolutions < 1280
+    size_mobile: "300px"     # resolutions < 786
+    size_mobile_p: "412.5px" # resolutions < 480
+    author:
+        name: Ballookey Klugeypop
+        url: https://www.flickr.com/photos/ballookey/3758686867/in/photolist-6J9fDZ-3qnSkX-525FGU-svyYD-fHH9mZ-p1V6tB-2vWyUV-6cQtxv-5i5Jia-gKcFmE-iSEo4J-5i5JEk-fiUVjG-746VYB-78cP9R-beDQGD-5G9krh-3LzV9D-8y3QRX-ar31JD-kAYK2C-55qVSC-6pbjzk-8P7ghG-5SJPoG-4dULo8-4vn9au-7i1Q2p-FFc6u-3aV4jL-fmDBN8-68F5AR-7hcKV9-8XZgmG-68F57D-97oHVP-7iTffD-ogr71-6ucmQU-8jE9t1-b1p2h-mH8ZgZ-8xBqg9-6RceEx-9JdSDs-4mkPs9-7ZJRHT-4q2k2Z-dAcJ7S-bz6r2a/player/
+
+exclude:
+    - README.md
+    - LICENSE
+    - composer.json
