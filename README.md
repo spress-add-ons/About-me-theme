@@ -2,6 +2,7 @@
 
 "About me" a single page, single screen responsive theme ideal for creating your business card. 
 "About me" is a theme for Spress inspired by Aerial from [HTML5 UP](http://html5up.net).
+
 [Live demo](http://spress-add-ons.github.io/about-me/).
 
 ### License 
