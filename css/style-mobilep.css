@@ -23,3 +23,11 @@
 	#header nav {
 		padding: 0 1em;
 	}
+
+	#header p {
+		font-size: 1.4em;
+	}
+
+	#header nav ul.interests {
+		font-size: 1.3em;
+	}

@@ -43,5 +43,9 @@ $ cd /your-site-dir
 $ spress site:build --server --watch
 ```
 
+### Customization
+
+Edit `config.yml` file with your data.
+
 ### License 
 Free for personal and commercial use under the [CCA 3.0 license](https://creativecommons.org/licenses/by/3.0/).

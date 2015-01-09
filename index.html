@@ -33,13 +33,11 @@
 					<p>{{ site.author.bio }}</p>
 					<nav>
 						{% if site.author.interests %}
-						<div class="container 75%">
-							<ul>
-								{% for interest in site.author.interests %}
-									<li><i class="fa fa-circle-thin"></i> {{ interest }}</li>
-								{% endfor %}
-							</ul>
-						</div>
+						<ul class="interests">
+							{% for interest in site.author.interests %}
+								<li><i class="fa fa-circle-thin"></i> {{ interest }}</li>
+							{% endfor %}
+						</ul>
 						{% endif %}
 						<ul>
 							{% if site.social_networks.twitter %}
