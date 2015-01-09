@@ -107,7 +107,7 @@
 						Powered by: <a href="http://spress.yosymfony.com">Spress</a>.
 					</span>
 					<span class="photo-author">
-						{% if site.background.author.name %}
+						{% if site.background.image and site.background.author.name %}
 							<i class="fa fa-camera"></i> by 
 							<a href="{{ site.background.author.url | default('#') }}">{{ site.background.author.name }}</a>.
 						{% endif %}

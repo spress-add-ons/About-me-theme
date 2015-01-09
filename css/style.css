@@ -102,7 +102,11 @@
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 		/* Set your background with this */
+		{% if  site.background.image %}
 		background: {{ site.background.color }} url("{{ site.url }}/{{ site.background.image }}") bottom left;
+		{% else %}
+		background: {{ site.background.color }};
+		{% endif %}	
 		background-repeat: repeat;
 		height: 100%;
 		left: 0;
