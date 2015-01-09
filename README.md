@@ -12,6 +12,13 @@ This theme for Spress has been inspired by Aerial from [HTML5 UP](http://html5up
 
 ### How to install?
 
+#### Download a copy
+
+* Get a copy of the latest [release](https://github.com/spress-add-ons/About-me-theme/releases).
+* Uncompress it.
+* Go to `About-me-theme folder
+* `spress site:build --server --watch`
+
 #### With Git
 
 * [Fork this repository](https://github.com/spress-add-ons/About-me-theme/fork)
@@ -20,6 +27,8 @@ This theme for Spress has been inspired by Aerial from [HTML5 UP](http://html5up
 * `spress site:build --server --watch`
 
 #### Globally
+
+Some way to do it.
 
 Go to your [Spress](http://spress.yosymfony.com/) installation folder i.e  **~/Spress** and add the following depencency to your `composer.json` file 
 
