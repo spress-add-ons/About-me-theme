@@ -7,7 +7,7 @@ This theme for Spress has been inspired by Aerial from [HTML5 UP](http://html5up
 
 **This theme requires Spress >= 2.0**. If you are using Spress 1.x, go to [1.0.0](https://github.com/spress-add-ons/About-me-theme/releases/tag/v1.0.0) version of the theme.
 
-### Featured:
+### Features:
 
 * Responsive design: Support to mobile and tablets.
 * Easy configuration. You only need to modify the `config.yml` file with your name, bio, interests and social networks.
