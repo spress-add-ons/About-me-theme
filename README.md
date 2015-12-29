@@ -5,6 +5,8 @@ This theme for Spress has been inspired by Aerial from [HTML5 UP](http://html5up
 
 [Live demo](http://spress-add-ons.github.io/about-me/).
 
+**This theme requires Spress >= 2.0**. If you are using Spress 1.x, go to [1.0.0](https://github.com/spress-add-ons/About-me-theme/releases/tag/v1.0.0) version of the theme.
+
 ### Featured:
 
 * Responsive design: Support to mobile and tablets.
@@ -17,40 +19,14 @@ This theme for Spress has been inspired by Aerial from [HTML5 UP](http://html5up
 * Get a copy of the latest [release](https://github.com/spress-add-ons/About-me-theme/releases).
 * Uncompress it.
 * Go to `About-me-theme` folder
-* `spress site:build --server --watch`
+* Runs `spress site:build --server --watch`
 
 #### With Git
 
 * [Fork this repository](https://github.com/spress-add-ons/About-me-theme/fork)
 * Clone it: ` https://github.com/YOUR-USER/About-me-theme.git
 * Go to `About-me-theme` folder
-* `spress site:build --server --watch`
-
-#### Globally
-
-Some way to do it.
-
-Go to your [Spress](http://spress.yosymfony.com/) installation folder i.e  **~/Spress** and add the following depencency to your `composer.json` file 
-
-```json
-"require": {
-    "spress-add-ons/about-me-theme": "1.0.*@dev"
-}
-```
-
-and then run the following command to install the dependency.
-
-```bash
-$ composer update
-```
-
-Next create your new site:
-
-```bash
-$ spress new:site /your-site-dir about-me
-$ cd /your-site-dir
-$ spress site:build --server --watch
-```
+* Runs `spress site:build --server --watch`
 
 ### Customization
 
